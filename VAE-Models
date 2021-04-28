@@ -1,5 +1,0 @@
-To use the chemVAE download the VAE library from:
-https://github.com/aspuru-guzik-group/chemical_vae
-
-Each of the models listed in this repository have been trained on a number of molecules with their respective USRCAT scores equivalent to the same reference molecules.
-The SMILES of this molecule is provided here in a simple text file.
