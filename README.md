@@ -16,7 +16,7 @@ https://github.com/Mattarian/ChemVAE-USRCAT/tree/main/USRCAT_Sim_250K_with_ChemB
 There are other models provided in this repository with slight variations from the above. In particular, the amount of data each model has been trained on differs, resulting in Machine Learning algorithms with different capabilities in molecular generation. These are detailed below.
 
 - USRCAT_Sim_250K : A model trained on 250,000 molecules from ZINC with their USRCAT scores calculated relative to the reference molecule
-- USRCAT_Sim_250K_with_Add_Mols : A model trained on 250,000 molecules from Zinc and a further 28 molecules from the work of C. Coxon et al.
+- USRCAT_Sim_250K_with_Add_Mols : A model trained on 250,000 molecules from Zinc with a further 28 molecules selected from the work of C. Coxon et al.
 
 ## Using the Models
 This has been trained on 250K drug-like molecules from ZINC, as well as 4K molecules from ChemBL which are known to have CDK-2 activity.
