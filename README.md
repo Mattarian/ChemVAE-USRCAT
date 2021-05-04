@@ -29,7 +29,7 @@ To load and use a specific model, create (or activate) an anaconda environment w
 
 *It is possible the computer may throw an error when attempting to run, which may be caused by the Keras backend not being set correctly. The commands in the notebook file should correct this, but if not, locate the Keras file in the env lib area and forcibly set Keras_Backend = Tensorflow*
 
-Then, in the conda environment, load the Jupyter Notebook. Following the instructions in the notebook, input a molecule to be used as the "seed". The seed molecule must be provided in SMILES format, however the choice SMILES format (ie. Isomeric, Cannonised etc.) is not important particularly important for the running of the code. *That being said, if possible, use cannonised SMILES as it simplifies the running a bit as the code then does not have to cannonise the SMILES itself*
+Then, in the conda environment, load the Jupyter Notebook. Following the instructions in the notebook, input a molecule to be used as the "seed". The seed molecule must be provided in SMILES format, however the choice SMILES format (ie. Isomeric, Cannonised etc.) is not particularly important for the running of the code. *That being said, if possible, use cannonised SMILES as it simplifies the running a bit as the code then does not have to cannonise the SMILES itself*
 
 Run the seed a couple of times through the code to ensure it is not being mis-translated. As the VAE is probabalistic this may take a few attempts, and if it is not possible to translate the seed successfully, either select a new seed or go with the best-attempted translation as this may just be an output error.
 
