@@ -33,6 +33,8 @@ Then, in the conda environment, load the Jupyter Notebook. Following the instruc
 
 Run the seed a couple of times through the code to ensure it is not being mis-translated. As the VAE is probabalistic this may take a few attempts, and if it is not possible to translate the seed successfully, either select a new seed or go with the best-attempted translation as this may just be an output error.
 
+Molecules can be searched for in the latent space with variable amounts of "noise". The amount of noise correlates with how far from the seed the user desires to look for molecules, consequently, by setting the amount of noise to greater numbers more molecules may be located, however they will be of decreasing similarity to the seed molecule. *The recommended starting point is around 5-10 as any further than this and the code will not produce many molecules of reasonable similarity to the seed.* The number of attempts can be set to variable amounts, however more attempts means it takes longer to search the latent space. *It is recommended to start at around 100 attempts up to 10,000, but it will take around 30 mins on a computer of average spec. to run 10,000 attempts.*
+
 # Refernces
 R. Gómez-Bombarelli, J. Wei, D. Duvenaud, J. Hernández-Lobato, B. Sánchez-Lengeling, D. Sheberla, J. Aguilera-Iparraguirre, T. Hirzel, R. Adams and A. Aspuru-Guzik, ACS Cent. Sci., 2018, 4, 268-276.
 
